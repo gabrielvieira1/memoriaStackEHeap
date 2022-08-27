@@ -33,5 +33,10 @@ int main()
 
  free(v2);
 
+ char nome[10] = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j'};
+ sprintf(nome, "Melancia");
+ printf("%c\n", nome[0]);
+ printf("%s\n", nome);
+
  return 0;
 }
