@@ -38,5 +38,16 @@ int main()
  printf("%c\n", nome[0]);
  printf("%s\n", nome);
 
+ //unsigned char n = 250;
+ unsigned int n = 250;
+ //char n = 120;
+
+ for (int i = 0; i < 10; i++) {
+  //printf("%hhu | %hhX\n", n, n);
+  //printf("%hhd | %hhX\n", n, n);
+  printf("%u | %X\n", n, n);
+  n++;
+ }
+
  return 0;
 }
